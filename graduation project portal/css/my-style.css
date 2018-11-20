@@ -1,0 +1,324 @@
+ body,html{
+  direction:rtl !important;
+ /* overflow: scroll;*/
+}
+ /* Start nav */
+
+ a.nav-link:hover{
+    font-size: 14px;
+    color:#1204eb;
+  border-bottom: 2px solid #1ABC9C;
+  padding-bottom:10px;
+    background-color: #8394b9;
+     
+}
+
+ul#menu.nav.navbar-nav.navbar-right li a.active{
+ background-color: #e7e7e7; 
+}
+div.container-fluid{
+  border-radius: 0 !important;
+}
+ /* End nav */
+ .row {
+      margin-right: 0px;  
+      margin-left: 0px; 
+}
+
+/* Start login */
+ #login-name{
+     font-size: 65px  ;
+     font-family: Arabic typesetting  ;
+     border-bottom-style: ridge  ;
+     color: white ;
+}
+ .login{
+     background-color: #0d0d0d  ; 
+     box-shadow: -10px -10px 9px #33cc33; 
+     opacity: 0.70;
+     min-height: 500px  ;
+    
+     padding: 40px 80px 40px 80px  ;
+    
+}
+
+ .user{
+     font-family: Arabic typesetting  ;
+     font-size: 16px  ;
+     color: #000  ;
+}
+ #iconn,#iconn1{
+     background-color: #5cb85c  ;
+     border-color: #4cae4c  ;
+     color: white  ;
+     border-radius: 0px  ;
+     height: 40px  ;
+}
+ 
+#usr_id,#usr_pwd{
+     border-radius: 0px  ;
+     height: 40px  ;
+}
+ input#login_btn.btn.btn-success,input#reset_btn.btn.btn-danger{
+     width: 43%  ;
+     float: right  ;
+     border-radius: 0px  ;
+     height: 40px ;
+     font-size: 17px  ;
+
+}
+input#login_btn.btn.btn-success{
+  margin-left: 7%;
+}
+.form-group{
+  position:relative
+}
+.eyes-cont{
+  position:absolute;
+  z-index:222;
+  top:64% !important;
+  transform:translateY(-50%);
+  left:0;
+  
+}
+.eyes-cont i{
+  cursor:pointer;
+  padding:0 10px;
+}
+.eyes-cont .hide{
+  display:none
+}
+/**/
+.eyes-cont1{
+  position:absolute;
+  z-index:222;
+  top:54% ;
+  transform:translateY(-50%);
+  left:0;
+  
+}
+.eyes-cont1 i{
+  cursor:pointer;
+  padding:0 10px;
+}
+.eyes-cont1 .hide{
+  display:none
+}
+/**/
+/* End login */
+  /* Start fixed menu */
+  /*
+ 
+ul#fixed_menu_1.fixed-menu-item.from-left li span:first-child {
+position:absolute;
+left: 0;
+width:0;
+height:100%;
+ display:block; 
+z-index:1;
+ background-color:#3498db !important;
+ opacity: 0.7;
+} 
+ul#fixed_menu_1.fixed-menu-item.from-left li span:last-child{
+position:relative;
+width:100%;
+height:100%;
+ 
+z-index:2;
+}
+*/
+ ul#menu.nav.navbar-nav.navbar-right li a.active{
+ background-color: #e7e7e7; 
+ color:#1204eb;
+}
+div.fixed-menu{
+    background-color:#2980b9;
+    color: #EEE;
+    padding: 6px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 240px;
+    z-index: 9999;
+ border-left: 3px solid #3498db; 
+/* overflow: scroll;*/
+}
+div.fixed-menu .fa-gear{
+   position: absolute;
+   right: 0;
+   top: 90px;
+   background-color: #2980b9;
+   width: 30px;
+   height: 30px;
+   right: -30px;
+   line-height: 30px;
+   text-align: center;
+   border-radius: 0 10px 10px 0;
+   cursor: pointer;
+}
+ul#fixed_menu_1.fixed-menu-item.from-left li a.active{
+  border-left: 1px solid yellow; 
+  color:#1204eb;
+}
+ul#menu.nav.navbar-nav.navbar-right li a{
+  font-size: 18px;
+}
+.navbar{
+  border-radius: 0px;
+}
+  /* End fixed menu */
+ 
+ 
+.form-control::-webkit-input-placeholder { color: blue;text-align: center; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: blue;text-align: center; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: blue;text-align: center; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: blue;text-align: center; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: blue;text-align: center; }  /* Microsoft Edge */
+/* tbl attr */
+th, td {
+  text-align: center;
+  white-space: nowrap;
+}
+/*add_semester_into_years file*/
+#add_semester:hover{
+ transform: scale(1.5);
+}
+/* Start pass */
+.eyes-cont{
+  position:absolute;
+  z-index:222;
+  top:54%;
+  transform:translateY(-50%);
+  left:0;
+  
+}
+.eyes-cont i{
+  cursor:pointer;
+  padding:0 10px;
+}
+.eyes-cont .hide{
+  display:none
+}
+.form-group{
+  position: relative;
+}
+/* Removing up/down arrow from input type=number */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+ 
+/* Start date/time picker */
+.datetimepicker {
+  .form-control {
+    background: #fff;
+  }
+}
+.input-group-addon{
+  border-radius: 0px;
+ }
+.input-group .form-control{
+  border-radius: 0px;
+}
+/*add_semesters_into_years.php file*/
+ 
+
+/*.hidden{
+  display:none
+}*/
+.inactive_button,.active_button{
+  min-width:72px !important;
+} 
+/* join_into_another_grp.php*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box
+}
+ 
+.accordion{
+  margin: 0 0 20px 0;
+}
+.accordion .header{
+  color:#FFF;
+  display:flex;
+  justify-content:space-between;
+  padding:10px 30px ;
+  cursor:pointer ; 
+  
+  background:#1e527f;
+}
+input{
+  border-radius:5px;
+  
+}
+.title h3{
+  color:#FFF ;
+  position:relative;
+  opacity:1;
+  text-shadow:none
+}
+.content ul {
+    list-style-type: decimal-leading-zero;
+    padding-right: 10px;
+}
+.open:before{
+  content:'-'
+}
+.close:before{
+  content:'+'
+}
+.content{
+  padding:0 30px ;
+  background:;
+  transition:.5s ease-in-out;
+  overflow:hidden;
+  background:#f8fcff;
+  color:#5e5e5e
+}
+.content ul{
+  margin-right:25px
+  
+}
+.hidden{
+  height:0px
+}
+
+/*send_your_weekly_project_work.php*/
+.radio{
+	  direction:rtl;
+}
+/* chat_room.php */
+.chatContainer{
+	
+	height:500px;
+	border:5px solid #0000FF;
+}
+.chatContainer>.chatMessages,.chatContainer>.std_chatMessages{
+height: 405px;
+border-bottom:1px solid #dddd;
+overflow-y:scroll;
+}
+#chat_msg,#std_chat_msg{
+ height: 35px;
+overflow-y:scroll;
+}
+/* send weekly work .php*/
+#stdInboxMessages{
+ height: 405px;
+border-bottom:1px solid #dddd;
+overflow-y:scroll; 
+
+}
+
+#fileInput.hideFileInput{
+  display: none;
+}
+#fileInput.showFileInput{
+  display: block;
+}
